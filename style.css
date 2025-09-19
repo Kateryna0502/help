@@ -1,0 +1,90 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+button {
+  box-sizing: border-box;
+
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  margin: 0 auto;
+  width: 210px;
+  height: 60px;
+
+  background: #ffffff;
+  border: 1px solid #9c69e2;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+
+  font-family: "Montserrat", sans-serif;
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+
+  align-items: center;
+
+  color: #212353;
+}
+.button {
+  box-sizing: border-box;
+
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  background: #9c69e2;
+
+  border: 1px solid #9c69e2;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+}
+
+.link-with-arrow {
+  text-decoration: none;
+  color: #212353;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid #9c69e2;
+  border-radius: 50px;
+}
+
+.link-with-arrow:hover {
+  background-color: #9747ff;
+  color: #ffffff;
+}
+.learn {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  /* display: flex; */
+  align-items: center;
+  letter-spacing: 0.005em;
+  color: #212353;
+}
+.arrow-icon {
+  width: 20px; /* розмір стрілочки */
+  height: 14px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+
+  align-items: center;
+  letter-spacing: 0.005em;
+
+  color: #212353;
+}
+.arrow-icon:focus {
+  color: #ffffff;
+}
+
+button:focus,
+a:focus {
+  outline: none;
+}
